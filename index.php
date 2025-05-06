@@ -6,9 +6,9 @@ require_once __DIR__ . '/data/data.php';
 
 
 
-// crea un array contenenti le istanze
-$movies = [$guardianOfGalaxy, $ironMan];
-// var_dump($movies);
+
+// var_dump($guardianOfGalaxy);
+// var_dump($guardianOfGalaxy->getGenres());
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ $movies = [$guardianOfGalaxy, $ironMan];
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $movie->title; ?></h5>
                             <p class="card-text"><strong>Anno:</strong> <?php echo $movie->year; ?></p>
-                            <p class="card-text"><strong>Genere:</strong> <?php echo $movie->getGenre(); ?></p>
+                            <p class="card-text"><strong>Genere:</strong> <?php echo $movie->getGenres(); ?></p>
                             <p class="card-text"><strong>Descrizione:</strong> <?php echo $movie->getDescription(); ?></p>
                         </div>
                     </div>
