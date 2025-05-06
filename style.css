@@ -1,0 +1,43 @@
+/* Guardian of Galaxy theme */
+body {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    /* Font futuristico */
+}
+
+h1 {
+    text-shadow: 2px 2px 5px #ff00ff;
+    color: #00ffff;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #00ffff;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+.card-title {
+    color: #ff00ff;
+}
+
+.btn-galaxy {
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-galaxy:hover {
+    box-shadow: 0 0 10px #ffffff;
+    background: linear-gradient(to right, #ff66cc, #6666ff);
+}
